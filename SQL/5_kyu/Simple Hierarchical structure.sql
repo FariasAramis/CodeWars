@@ -17,10 +17,8 @@ manager_id (can be NULL)
 
 https://www.codewars.com/kata/5812a2a2492760dfca000450
 
-
 */
 
--- Create your SELECT statement here
 WITH RECURSIVE employee_levels AS
 ( SELECT E.*, 1 AS level
   FROM employees E
