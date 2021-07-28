@@ -27,7 +27,6 @@ WHERE department_id IN (
                        )
 GROUP BY m.id, m.name, email
 HAVING SUM(p.price)>1000
-ORDER BY  m.id
-;
+ORDER BY  m.id;
 
 SELECT * FROM members_approved_for_voucher
