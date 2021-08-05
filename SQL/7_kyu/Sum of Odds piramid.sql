@@ -15,6 +15,7 @@ rowSumOddNumbers(2); // 3 + 5 = 8
 the table "nums" contains an integer "n", the number
 return your result in a column "res"
 
+https://www.codewars.com/kata/55fd2d567d94ac3bc9000064
 */
 CREATE FUNCTION rowSumOddNumbers(INTEGER) RETURNS INTEGER AS
 $$
